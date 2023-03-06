@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* header*/
+.fondoindex{
+    background-color: wheat;
+}
+.imglogo{
+    border: #5a5a5a 1px;
+    background-color: #5a5a5a;
+}
+.logo{
+    width: 100px;
+    padding-left: 50px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    float: left;
+
+}
+.div{
+    padding-top: 50px;
+    padding-bottom: 20px;
+    text-align: center;
+    text-decoration: none;
+}
+.enlace{
+    margin: 25px;
+    color: white;
+    font-family:'Itim',cursive;
+    text-decoration: none;
+}
+/* venta */
+section{
+    position: absolute;
+}
+
+.descripciones{
+    display: flex;
+    flex-direction: column;
+}
+.talles{
+    border-bottom: 1px solid #5a5a5a;
+    padding-bottom: 9px;
+}
+aside{
+    display: flex;
+    flex-direction: column;
+}
+.ropa1{
+    width: 250px;
+    margin-left: 300px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #5a5a5a; 
+}
+.ropa1:hover{
+    width: 300px;
+    height: 500px;
+}
+.abajo{
+    border-top: #5a5a5a solid 10px;
+    border-right: #5a5a5a solid 10px;
+    border-bottom: #5a5a5a solid 100px; 
+    border-left: #5a5a5a solid 10px;
+    background-color:#5a5a5a;    
+}
+.facebook{
+    width: 50px;
+}
+.youtube{
+    width: 50px;
+}
+.instagram{
+    width: 50px;
+}
+.tiktok{
+    width: 50px;
+}
+/*sucursales*/
+.grid_container1{
+    display: grid;
+    grid-template-columns:450px 900px;
+    grid-template-rows: 800px;
+    background-color: beige;
+}
+.sucur{
+    justify-self: end;
+    align-self: center;
+    border:5px solid black;
+}
+.mapa{
+    width: 800px;
+    height: 600px;
+    justify-self: center;
+    align-self: center;
+    border:4px solid white;
+}
+.border1{
+    border-bottom:1px solid black;
+}
+/*Muy pronto*/
+.grid_container2{
+    display: grid;
+    grid-template-columns: 450px 1000px;
+    grid-template-rows: 1000px;
+    background-color: wheat;
+}
+.des1{
+    justify-self: center;
+    align-self: center;
+    border: 1px solid black;
+}
+.titulo3{
+    border: 1px solid black;
+}
+.barra{
+    border-bottom: 1px solid black;
+}
+.prod5{
+    align-self: center;
+    padding-left: 100px;
+}
+.fitimg{
+    border:4px solid black;
+    width: 250px;
+    height: 250px;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+/*bootstrap contacto*/
+.containerB{
+    background-color: wheat;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 250px;
+    padding-top: 40px;
+}
+.bajo{
+    margin-bottom: 0;
+}
+.esp{
+    background-color: #5a5a5a;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+}
+.logob{
+    width: 100px;
+}
+.enl{
+    text-decoration: none;
+    color: black;
+}
+.b-black{
+    border: 4px solid black;
+}
+/*bootstrap sobre nosotros*/
+.subrayado{
+    border-bottom: 3px solid black;
+}
+.inf{
+    border: 2px solid black;
+}
+.cbumimg{
+    width: 400px;
+    height: 250px;
+}
+.imgcbum{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    
+}
+.containerb1{
+    background-color: wheat;
+    padding-bottom: 30px;
+}
