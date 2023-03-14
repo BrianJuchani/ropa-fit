@@ -2,115 +2,102 @@
     margin: 0;
     padding: 0;
 }
-/* header*/
-.fondoindex{
-    background-color: wheat;
+/*header*/
+.flex{
+    display: flex;
+    justify-content: center;
 }
-.imglogo{
-    border: #5a5a5a 1px;
+.esp{
     background-color: #5a5a5a;
 }
-.logo{
-    width: 100px;
-    padding-left: 50px;
-    padding-top: 10px;
-    padding-bottom: 5px;
-    float: left;
-
-}
-.div{
-    padding-top: 50px;
-    padding-bottom: 20px;
-    text-align: center;
-    text-decoration: none;
+.padreenlace{
+    display: flex;
+    justify-content: space-evenly;
+    border: 5px solid black;
 }
 .enlace{
-    margin: 25px;
-    color: white;
-    font-family:'Itim',cursive;
     text-decoration: none;
+    color: black;
 }
-/* venta */
-section{
-    position: absolute;
+.enlace2{
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 5px solid black;
+    border-left: 5px solid black;
+    border-right: 5px solid black;
 }
-
-.descripciones{
+/*main index*/
+.flex_index{
+    background-color: wheat;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: row;
+}
+.opciones{
+    margin-left: 30px;
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
 }
-.talles{
-    border-bottom: 1px solid #5a5a5a;
-    padding-bottom: 9px;
-}
-aside{
+#productos_index{
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 .ropa1{
-    width: 250px;
-    margin-left: 300px;
-    padding-bottom: 10px;
-    padding-top: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
-    background-color: #5a5a5a; 
+    margin-top: 40px;
+    margin-bottom: 35px;
+    border: 3px solid black;
+    height: 450px;
 }
-.ropa1:hover{
-    width: 300px;
-    height: 500px;
+#productos_index .ropa1:hover{
+    transform: scale(1.15);
 }
-.abajo{
-    border-top: #5a5a5a solid 10px;
-    border-right: #5a5a5a solid 10px;
-    border-bottom: #5a5a5a solid 100px; 
-    border-left: #5a5a5a solid 10px;
-    background-color:#5a5a5a;    
+/*footer*/
+.footer_logo{
+    display: flex;
+    justify-content: space-around;
+    background-color: #5a5a5a;
 }
-.facebook{
-    width: 50px;
-}
-.youtube{
-    width: 50px;
-}
-.instagram{
-    width: 50px;
-}
-.tiktok{
-    width: 50px;
+.img_logo{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 60px;
+    height: 60px;             
 }
 /*sucursales*/
 .grid_container1{
     display: grid;
-    grid-template-columns:450px 900px;
+    justify-content: space-evenly;
+    grid-template-columns:500px 1200px;
     grid-template-rows: 800px;
     background-color: beige;
 }
 .sucur{
-    justify-self: end;
-    align-self: center;
-    border:5px solid black;
+    display: grid;
+    justify-items: center;
 }
 .mapa{
     width: 800px;
     height: 600px;
-    justify-self: center;
-    align-self: center;
     border:4px solid white;
 }
-.border1{
-    border-bottom:1px solid black;
+.mapa_sucursales{
+    width: 800px;
+    height: 600px;
 }
 /*Muy pronto*/
 .grid_container2{
     display: grid;
-    grid-template-columns: 450px 1000px;
+    grid-template-columns: 300px 1000px;
     grid-template-rows: 1000px;
     background-color: wheat;
+    justify-content: space-around;
+    align-items: center;
 }
 .des1{
-    justify-self: center;
-    align-self: center;
+    display: grid;
+    justify-items: center;
     border: 1px solid black;
 }
 .titulo3{
@@ -119,16 +106,20 @@ aside{
 .barra{
     border-bottom: 1px solid black;
 }
-.prod5{
-    align-self: center;
-    padding-left: 100px;
+.img_fitnes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: stretch;
 }
 .fitimg{
+    margin-top: 40px;
     border:4px solid black;
     width: 250px;
     height: 250px;
-    margin-left: 30px;
-    margin-top: 30px;
+}
+.img_fitnes .fitimg:hover{
+    transform: scale(1.15);
 }
 /*bootstrap contacto*/
 .containerB{
@@ -141,24 +132,16 @@ aside{
 .bajo{
     margin-bottom: 0;
 }
-.esp{
-    background-color: #5a5a5a;
-}
-.flex{
-    display: flex;
-    justify-content: center;
-}
 .logob{
     width: 100px;
 }
-.enl{
-    text-decoration: none;
-    color: black;
-}
-.b-black{
-    border: 4px solid black;
-}
 /*bootstrap sobre nosotros*/
+.edit{
+    border-top: 5px solid black;
+}
+.row{
+    flex-wrap: wrap;
+}
 .subrayado{
     border-bottom: 3px solid black;
 }
