@@ -1,0 +1,43 @@
+.containerB{
+    background-image: url(../img/fondogym1.png);
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 250px;
+    padding-top: 40px;
+}
+.bajo{
+    margin-bottom: 0;
+}
+.logob{
+    width: 100px;
+}
+.title_contacto{
+    color: white;
+    border-bottom: 3px solid white;
+}
+.horarios{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 3px solid white;
+    background-color: black;
+    margin-top: 100px;
+}
+.text_horario{
+    width: 200px;
+    color: white;
+}
+.mapa{
+    border: 3px solid white;
+    margin-top: 100px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.direccion_bjfit{
+    color: white;
+}
+.mapa_direccion{
+    padding-bottom: 30px;
+}

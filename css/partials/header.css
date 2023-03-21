@@ -1,0 +1,28 @@
+header nav {
+  background-image: url(../img/cool-background1.png);
+}
+header nav div {
+  display: flex;
+  justify-content: center;
+}
+header nav div div a img {
+  height: 100px;
+}
+header nav div button {
+  background-color: white;
+  color: wheat;
+}
+header nav div div {
+  display: flex;
+  justify-content: center;
+}
+header nav div div ul li a {
+  color: white;
+  margin: 30px;
+}
+
+.enlace:hover {
+  color: wheat;
+}
+
+/*# sourceMappingURL=header.css.map */

@@ -1,0 +1,69 @@
+main {
+  padding-bottom: 100px;
+  background-image: url(../img/fondogym1.png);
+  padding-top: 30px;
+  display: flex;
+  flex-direction: row;
+}
+main div {
+  margin-left: 2px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+main div h3 {
+  color: white;
+  text-align: center;
+  border: 3px solid black;
+}
+main div a {
+  color: wheat;
+  text-decoration: none;
+}
+main #productos_index {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+main #productos_index div {
+  border: 5px solid #5a5a5a;
+  margin-top: 30px;
+}
+main #productos_index div img {
+  width: 200px;
+  margin-bottom: 20px;
+}
+main #productos_index div div {
+  background-color: #5a5a5a;
+}
+main #productos_index div div h5 {
+  color: aliceblue;
+  text-align: center;
+}
+main #productos_index div div a {
+  color: black;
+}
+
+.card {
+  border: 5px solid #5a5a5a;
+  margin-top: 30px;
+}
+.card .card-img-top {
+  width: 200px;
+  margin-bottom: 20px;
+}
+.card .card-img-top:hover {
+  transform: scale(1.15);
+}
+
+.btn {
+  background-color: black;
+  color: white;
+  border: 1px solid black;
+}
+.btn:hover {
+  border: 1px solid black;
+  background-color: wheat;
+}
+
+/*# sourceMappingURL=mainIndex.css.map */

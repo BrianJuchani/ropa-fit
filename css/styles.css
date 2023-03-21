@@ -1,0 +1,279 @@
+header nav {
+  background-image: url(../img/cool-background1.png);
+}
+header nav div {
+  display: flex;
+  justify-content: center;
+}
+header nav div div a img {
+  height: 100px;
+}
+header nav div button {
+  background-color: white;
+  color: wheat;
+}
+header nav div div {
+  display: flex;
+  justify-content: center;
+}
+header nav div div ul li a {
+  color: white;
+  margin: 30px;
+}
+
+.enlace:hover {
+  color: wheat;
+}
+
+main {
+  padding-bottom: 100px;
+  background-image: url(../img/fondogym1.png);
+  padding-top: 30px;
+  display: flex;
+  flex-direction: row;
+}
+main div {
+  margin-left: 2px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+main div h3 {
+  color: white;
+  text-align: center;
+  border: 3px solid black;
+}
+main div a {
+  color: wheat;
+  text-decoration: none;
+}
+main #productos_index {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+main #productos_index div {
+  border: 5px solid #5a5a5a;
+  margin-top: 30px;
+}
+main #productos_index div img {
+  width: 200px;
+  margin-bottom: 20px;
+}
+main #productos_index div div {
+  background-color: #5a5a5a;
+}
+main #productos_index div div h5 {
+  color: aliceblue;
+  text-align: center;
+}
+main #productos_index div div a {
+  color: black;
+}
+
+.card {
+  border: 5px solid #5a5a5a;
+  margin-top: 30px;
+}
+.card .card-img-top {
+  width: 200px;
+  margin-bottom: 20px;
+}
+.card .card-img-top:hover {
+  transform: scale(1.15);
+}
+
+.btn {
+  background-color: black;
+  color: white;
+  border: 1px solid black;
+}
+.btn:hover {
+  border: 1px solid black;
+  background-color: wheat;
+}
+
+main {
+  background-image: url(../img/fondogym1.png);
+}
+main h1 {
+  border-bottom: 3px solid white;
+  color: white;
+  font-family: "Smokum", cursive;
+  padding-top: 30px;
+  text-align: center;
+}
+main div {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding-top: 30px;
+  padding-bottom: 100px;
+}
+main div div {
+  max-width: 650px;
+}
+main div div div div img {
+  overflow: hidden;
+  margin: 0px;
+}
+main div div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 100px;
+}
+main div div div img {
+  border: 5px solid #5a5a5a;
+  width: 300px;
+}
+main div div {
+  border: 5px solid white;
+  background-color: #5a5a5a;
+}
+main div div h3 {
+  border-bottom: 2px solid wheat;
+  color: white;
+  text-align: center;
+}
+main div div p {
+  text-align: center;
+  width: 350px;
+  color: white;
+}
+main div div h4 {
+  text-align: center;
+  width: 350px;
+  color: white;
+}
+
+.div_pronto .img_pronto:hover {
+  transform: scale(1.15);
+}
+
+.div_pronto .img_pronto {
+  overflow: hidden;
+  margin: 0px;
+}
+.div_pronto .img_pronto:hover {
+  transform: scale(1.15);
+}
+
+main {
+  background-image: url(../img/fondogym1.png);
+}
+main div h1 {
+  padding-top: 30px;
+  text-align: center;
+  color: white;
+  font-family: "Bebas Neue", cursive;
+  border-bottom: 3px solid white;
+}
+main div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+main div div img {
+  overflow: hidden;
+  width: 470px;
+  margin: 0;
+}
+main div {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 100px;
+}
+main div div a img {
+  border: 5px solid #5a5a5a;
+  width: 300px;
+}
+main div div {
+  border: 5px solid #5a5a5a;
+  background-color: #5a5a5a;
+}
+main div div h3 {
+  border-bottom: 2px solid wheat;
+  color: white;
+  width: 300px;
+}
+main div div p {
+  width: 700px;
+  color: white;
+}
+
+.containerB {
+  background-image: url(../img/fondogym1.png);
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 250px;
+  padding-top: 40px;
+}
+
+.bajo {
+  margin-bottom: 0;
+}
+
+.logob {
+  width: 100px;
+}
+
+.title_contacto {
+  color: white;
+  border-bottom: 3px solid white;
+}
+
+.horarios {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 3px solid white;
+  background-color: black;
+  margin-top: 100px;
+}
+
+.text_horario {
+  width: 200px;
+  color: white;
+}
+
+.mapa {
+  border: 3px solid white;
+  margin-top: 100px;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.direccion_bjfit {
+  color: white;
+}
+
+.mapa_direccion {
+  padding-bottom: 30px;
+}
+
+footer {
+  border: 3px solid white;
+  background-image: url(../img/cool-background1.png);
+}
+footer div {
+  color: wheat;
+  border-bottom: 3px solid white;
+  text-align: center;
+}
+footer div {
+  display: flex;
+  justify-content: space-around;
+}
+footer div a img {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 60px;
+  height: 60px;
+}
+
+/*# sourceMappingURL=styles.css.map */

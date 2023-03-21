@@ -3,61 +3,89 @@
     padding: 0;
 }
 /*header*/
-.flex{
+.fondo_color{
+    background-image: url(../img/cool-background1.png);
+}
+.logo_img{
+    height: 100px;
+}
+.nav_nav{
     display: flex;
     justify-content: center;
 }
-.esp{
-    background-color: #5a5a5a;
-}
-.padreenlace{
-    display: flex;
-    justify-content: space-evenly;
-    border: 5px solid black;
+.boton_nav{
+    background-color: white;
+    color: wheat;
 }
 .enlace{
-    text-decoration: none;
-    color: black;
+    color: white;
+    margin: 30px;
 }
-.enlace2{
-    display: flex;
-    justify-content: space-around;
-    border-bottom: 5px solid black;
-    border-left: 5px solid black;
-    border-right: 5px solid black;
+.enlace:hover{
+    color: wheat;
 }
 /*main index*/
 .flex_index{
-    background-color: wheat;
+    padding-bottom: 100px;
+    background-image: url(../img/fondogym1.png);
     padding-top: 30px;
     display: flex;
     flex-direction: row;
 }
 .opciones{
-    margin-left: 30px;
+    margin-left: 2px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+}
+.descripciones{
+    color: wheat;
+    text-decoration: none;
+}
+.talles{
+    color: white;
+    text-align: center;
+    border: 3px solid black;
 }
 #productos_index{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
-.ropa1{
-    margin-top: 40px;
-    margin-bottom: 35px;
-    border: 3px solid black;
-    height: 450px;
+.card{
+    border:5px solid #5a5a5a;
+    margin-top: 30px;
 }
-#productos_index .ropa1:hover{
+.card-img-top{
+    width: 200px;
+    margin-bottom: 20px;
+}
+.card-body{
+    background-color: #5a5a5a;
+}
+.card-title{
+    color: aliceblue;
+    text-align: center;
+}
+.card .card-img-top:hover{
     transform: scale(1.15);
+}
+.btn-primary{
+    color: black;
 }
 /*footer*/
 .footer_logo{
     display: flex;
     justify-content: space-around;
-    background-color: #5a5a5a;
+}
+.footer_fondo{
+    border: 3px solid white;
+    background-image: url(../img/cool-background1.png);
+}
+.title_footer{
+    color: wheat;
+    border-bottom: 3px solid white;
+    text-align: center;
 }
 .img_logo{
     margin-top: 30px;
@@ -66,64 +94,105 @@
     height: 60px;             
 }
 /*sucursales*/
-.grid_container1{
-    display: grid;
-    justify-content: space-evenly;
-    grid-template-columns:500px 1200px;
-    grid-template-rows: 800px;
-    background-color: beige;
+.fondo_sucursales{
+    background-image: url(../img/fondogym1.png);
 }
-.sucur{
-    display: grid;
-    justify-items: center;
-}
-.mapa{
-    width: 800px;
-    height: 600px;
-    border:4px solid white;
-}
-.mapa_sucursales{
-    width: 800px;
-    height: 600px;
-}
-/*Muy pronto*/
-.grid_container2{
-    display: grid;
-    grid-template-columns: 300px 1000px;
-    grid-template-rows: 1000px;
-    background-color: wheat;
-    justify-content: space-around;
-    align-items: center;
-}
-.des1{
-    display: grid;
-    justify-items: center;
-    border: 1px solid black;
-}
-.titulo3{
-    border: 1px solid black;
-}
-.barra{
-    border-bottom: 1px solid black;
-}
-.img_fitnes{
+.main_sucursales{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
-    align-items: stretch;
+    justify-content: space-around;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
-.fitimg{
-    margin-top: 40px;
-    border:4px solid black;
-    width: 250px;
-    height: 250px;
+.title_sucursales{
+    padding-top: 30px;
+    text-align: center;
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+    border-bottom:3px solid white ;
 }
-.img_fitnes .fitimg:hover{
+.img_sucursales{
+    overflow: hidden;
+    width: 470px;
+    margin: 0;
+}
+.descripcion_sucursales{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 100px;
+}
+.logo_fit{
+    border: 5px solid #5a5a5a;
+    width: 300px;
+}
+.contenedor{
+    border: 5px solid #5a5a5a;
+    background-color: #5a5a5a;
+}
+.titulo_logo{
+    border-bottom: 2px solid wheat;
+    color: white;
+    width: 300px;
+}
+.p_main{
+    width: 700px;
+    color: white;
+}
+/*Muy pronto*/
+.muypronto{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-top: 30px;
+    padding-bottom: 100px;
+}
+.mainfondo{
+    background-image: url(../img/fondogym1.png);
+}
+.titlepronto{
+    border-bottom: 3px solid white;
+    color: white;
+    font-family: 'Smokum', cursive;
+    padding-top: 30px;
+    text-align: center;
+}
+.mainpronto{
+    max-width: 650px;
+}
+.img_pronto{
+    overflow: hidden;
+    margin: 0px;
+}
+.div_pronto .img_pronto:hover{
     transform: scale(1.15);
+}
+.descripcion_sucursales{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 100px;
+}
+.logo_fit{
+    border: 5px solid #5a5a5a;
+    width: 300px;
+}
+.contenedor{
+    border: 5px solid white;
+    background-color: #5a5a5a;
+}
+.titulo_logo{
+    border-bottom: 2px solid wheat;
+    color: white;
+    text-align: center;
+}
+.p_main{
+    text-align: center;
+    width: 350px;
+    color: white;
 }
 /*bootstrap contacto*/
 .containerB{
-    background-color: wheat;
+    background-image: url(../img/fondogym1.png);
     padding-left: 50px;
     padding-right: 50px;
     padding-bottom: 250px;
@@ -135,6 +204,36 @@
 .logob{
     width: 100px;
 }
+.title_contacto{
+    color: white;
+    border-bottom: 3px solid white;
+}
+.horarios{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 3px solid white;
+    background-color: black;
+    margin-top: 100px;
+}
+.text_horario{
+    width: 200px;
+    color: white;
+}
+.mapa{
+    border: 3px solid white;
+    margin-top: 100px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.direccion_bjfit{
+    color: white;
+}
+.mapa_direccion{
+    padding-bottom: 30px;
+}
 /*bootstrap sobre nosotros*/
 .edit{
     border-top: 5px solid black;
@@ -143,10 +242,13 @@
     flex-wrap: wrap;
 }
 .subrayado{
+    color: white;
     border-bottom: 3px solid black;
 }
 .inf{
-    border: 2px solid black;
+    color: white;
+    background-color: black;
+    border: 3px solid black;
 }
 .cbumimg{
     width: 400px;
@@ -159,6 +261,17 @@
     
 }
 .containerb1{
-    background-color: wheat;
+    background-image: url(../img/fondogym1.png);
     padding-bottom: 30px;
+}
+
+/*botom*/
+.btn {
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+}
+.btn:hover{
+    border: 1px solid black;
+    background-color: wheat;
 }

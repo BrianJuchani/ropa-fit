@@ -1,0 +1,25 @@
+main{
+    background-image: url(../img/fondogym1.png);
+    padding-bottom: 30px;
+    flex-wrap: wrap;
+    div{
+        h1{
+            color: white;
+            border-bottom: 3px solid black;
+        }
+    }
+    div{
+        color: white;
+        background-color: black;
+        border: 3px solid black;
+    }
+    div{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        img{
+            width: 400px;
+            height: 250px;
+        }
+    }
+}

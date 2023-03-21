@@ -4,69 +4,203 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="../css/estilos.css">
+    <title>Sucursales</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/styles.css">
 </head>
 <body>
     <div class="fondo">
-        <header class="esp">
-            <div class="flex">
-                <a href=""><img class="logob" src="../img/fit.png" alt=""></a>
-            </div>
-            <div>
-                <header>
-                    <nav>
-                        <ul>
-                            <li class="padreenlace">
-                                <a class="enlace" href="../index.html">INICIO</a>
-                                <a class="enlace" href="./muy.pronto.html">MUY PRONTO</a>
-                                <a class="enlace" href="./sucursales.html" >SUCURSALES</a>
-                                <a class="enlace" href="./contacto.html" >CONTACTANOS</a>
+        <header>
+            <nav class="fondo_color navbar navbar-expand-lg bg-light">
+                <div class="nav_nav container-fluid">
+                    <div>
+                        <a href="../index.html"><img class="logo_img" src="../img/fit.png" alt=""></a>
+                    </div>
+                    <button class="boton_nav navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class=" nav_nav collapse navbar-collapse" id="navbarNavDropdown">
+                        <ul class=" navbar-nav">
+                            <li class="nav-item">
+                                <a class=" enlace nav-link" href="../index.html">INICIO</a>
                             </li>
-                            <li>
-                                <div class="enlace2">
-                                    <a class="enlace" href="./sobrenosotros.html" >SOBRE NOSOTROS</a>
-                                </div>
+                            <li class="nav-item">
+                                <a class="enlace nav-link" href="./muyPronto.html">MUY PRONTO</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="enlace nav-link" href="./sucursales.html">SUCURSALES</a>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="enlace nav-link" href="./contacto.html">CONTACTO</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="enlace nav-link" href="./sobrenosotros.html">SOBRE NOSOTROS</a>
                             </li>
                         </ul>
-                    </nav>
-                </header>
-            </div>
+                    </div>
+                </div>
+            </nav>
         </header>
-        <main class="grid_container1">
-            <div class="grid sucur">
-                <h1>sucursale:</h1>
-                <p>-España,Madrird(2)</p>
-                <p>-Francia(2)</p>
-                <p>-Italia(3)</p>
-                <p>-Reino Unido(1)</p>
-                <p>-Alemania(2)</p>
-                <p>-Argentina(23)</p>
-                <p>-Chile(8)</p>
-                <p>-Uruguay(13)</p>
-                <p>-Paraguay(7)</p>
-                <p>-Bolivia(4)</p>
-                <p>-Brasil(19)</p>
-                <p>-Peru(5)</p>
-                <p>-Ecuador(5)</p>
-                <p>-Colombia(7)</p>
-                <p>-Venezuela(4)</p>
-                <p>Estados Unidos(15)</p>
-                <p>Canada(7)</p>
-                <p>Mexico(9)</p>
-                <h2>PRONTO EN MAS PAISES.....</h2>
+        <main class="fondo_sucursales" >
+            <div>
+                <h1 class="title_sucursales">Sucursales</h1>
             </div>
-            <div class="grid mapa">
-                <iframe class="mapa_sucursales" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d64915153.459485844!2d5.314321757727071!3d-6.7568615366556575!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sar!4v1677979716102!5m2!1ses!2sar"allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></iframe>
+            <div class="main_sucursales">
+                <div  data-aos="fade-up-right" class="card" style="width: 30rem;">
+                    <img src="../img/madrid.png" class="img_sucursales card-img-top" alt="ciudad de madrid ,España">
+                    <div class="card-body">
+                        <h2>España,Madrid</h2>
+                        <p class="card-text">2 locales en el pais de España, ciudad Madrid ,pronto en las demas ciudades de España</p>
+                    </div>
+                </div>
+                <div data-aos="fade-up-right" class="card" style="width: 30rem;">
+                    <img src="../img/francia.png" class="img_sucursales card-img-top" alt="francia">
+                    <div class="card-body">
+                        <h2>Francia</h2>
+                        <p class="card-text">3 locales distribuido en el pais de Francia ,pronto en el resto de las ciudades de Francia</p>
+                    </div>
+                </div>
+                <div data-aos="fade-up-right" class="card" style="width: 30rem;">
+                    <img src="../img/italia.png" class="img_sucursales card-img-top" alt="italia">
+                    <div class="card-body">
+                        <h2>Italia</h2>
+                        <p class="card-text">3 locales distribuido en el pais de Italia,pronto en el resto de las ciudades de Italia </p>
+                    </div>
+                </div>
+                <div data-aos="fade-up-right" class="card" style="width: 30rem;">
+                    <img src="../img/reinounido.png" class="img_sucursales card-img-top" alt="Reino Unido">
+                    <div class="card-body">
+                        <h2>Reino Unidos</h2>
+                        <p class="card-text">1 locales en el pais de Reino Unido ,pronto en el resto de las ciudades de Reino Unido</p>
+                    </div>
+                </div>
+                <div data-aos="fade-up-right" class="card" style="width: 30rem;">
+                    <img src="../img/alemania.png" class="img_sucursales card-img-top" alt="Alemania">
+                    <div class="card-body">
+                        <h2>Alemania</h2>
+                        <p class="card-text">4 locales distribuido en el pais de Alemania,pronto en el resto de las ciudades de Alemania</p>
+                    </div>
+                </div>
+                <div data-aos="fade-up-right" class="card" style="width: 30rem;">
+                    <img src="../img/argentina.png" class="img_sucursales card-img-top" alt="Argentina">
+                    <div class="card-body">
+                        <h2>Argentina</h2>
+                        <p class="card-text">20.563 locales distribuidoen todo el pais de Argentina, pronto mas cantidades en cada ciudad</p>
+                    </div>
+                </div>
+                <div data-aos="fade-up-right" class="card" style="width: 30rem;">
+                    <img src="../img/chile.png" class="img_sucursales card-img-top" alt="Chile">
+                    <div class="card-body">
+                        <h2>Chile</h2>
+                        <p class="card-text">54 locales distribuido en el pais de chile, pronto en el resto de las ciudades de Chile</p>
+                    </div>
+                </div>
+                <div data-aos="fade-up-right" class="card" style="width: 30rem;">
+                    <img src="../img/uruguay.png" class="img_sucursales card-img-top" alt="Uruguay">
+                    <div class="card-body">
+                        <h2>Uruguay</h2>
+                        <p class="card-text">34 locales distribuido en el pais de Uruguay, pronto en el resto de las ciudaes de Uruguay</p>
+                    </div>
+                </div>
+                <div data-aos="fade-up-right" class="card" style="width: 30rem;">
+                    <img src="../img/paraguay.png" class="img_sucursales card-img-top" alt="paraguay">
+                    <div class="card-body">
+                        <h2>Paraguay</h2>
+                        <p class="card-text">24 locales distribuido en el pais de Paraguay,pronto en el resto de las ciudades de Paraguay</p>
+                    </div>
+                </div>
+                <div data-aos="fade-up-right" class="card" style="width: 30rem;">
+                    <img src="../img/bolivia.png" class="img_sucursales card-img-top" alt="Bolivia">
+                    <div class="card-body">
+                        <h2>Bolivia</h2>
+                        <p class="card-text">20 locales distribuido en el pais de Bolivia, pronto en el resto de las ciudades de Bolivia</p>
+                    </div>
+                </div>
+                <div data-aos="fade-up-right" class="card" style="width: 30rem;">
+                    <img src="../img/brasil.png" class="img_sucursales card-img-top" alt="Brasil">
+                    <div class="card-body">
+                        <h2>Brasil</h2>
+                        <p class="card-text">30 locales distribuido en el pias de Brasil, pronto en el resto de las ciudades de Brasil</p>
+                    </div>
+                </div>
+                <div data-aos="fade-up-right" class="card" style="width: 30rem;">
+                    <img src="../img/peru.png" class="img_sucursales card-img-top" alt="Peru">
+                    <div class="card-body">
+                        <h2>Perú</h2>
+                        <p class="card-text">14 locales distribuido en el pais de Perú, pronto en el resto de la ciudades de Perú</p>
+                    </div>
+                </div>
+                <div data-aos="fade-up-right" class="card" style="width: 30rem;">
+                    <img src="../img/colombia.jpeg" class="img_sucursales card-img-top" alt="Colombia">
+                    <div class="card-body">
+                        <h2>Colombia</h2>
+                        <p class="card-text">12 loclaes distribuido en el pais de Colombia, pronto en le resto de la ciudades de Colombia</p>
+                    </div>
+                </div>
+                <div data-aos="fade-up-right" class="card" style="width: 30rem;">
+                    <img src="../img/venezuela.jpg" class="img_sucursales card-img-top" alt="Venezuela">
+                    <div class="card-body">
+                        <h2>Venezuela</h2>
+                        <p class="card-text">8 locales distribuido en el pais de Venezuela, pronto en el resto de las ciudades de Venezuela</p>
+                    </div>
+                </div>
+                <div data-aos="fade-up-right" class="card" style="width: 30rem;">
+                    <img src="../img/estadosunidos.jpg" class="img_sucursales card-img-top" alt="Estados Unidos">
+                    <div class="card-body">
+                        <h2>Estados Unidos</h2>
+                        <p class="card-text">18 locales distribuido en el pais de los Estados unidos, pronto en el resto de las ciudades de Estados Unidos</p>
+                    </div>
+                </div>
+                <div data-aos="fade-up-right" class="card" style="width: 30rem;">
+                    <img src="../img/canada.jpg" class="img_sucursales card-img-top" alt="Canada">
+                    <div class="card-body">
+                        <h2>Canadá</h2>
+                        <p class="card-text">12 locales distribuido en el pais de Canada, pronto en el resto de las ciudades de Canadá</p>
+                    </div>
+                </div>
+                <div data-aos="fade-up-right" class="card" style="width: 30rem;">
+                    <img src="../img/mexico.webp" class="img_sucursales card-img-top" alt="Mexico">
+                    <div class="card-body">
+                        <h2>México</h2>
+                        <p class="card-text">10 locales distribuido en el pais de México, pronto en el resto de las ciudades de México</p>
+                    </div>
+                </div>
+                <div data-aos="fade-up-right" class="card" style="width: 30rem;">
+                    <img src="../img/suiza.jpg" class="img_sucursales card-img-top" alt="Suiza">
+                    <div class="card-body">
+                        <h2>Suiza</h2>
+                        <p class="card-text">5 locales distribuido en el pais de Suiza,pronto en el resto de las ciudades de Suiza </p>
+                    </div>
+                </div>
             </div>
+            <div data-aos="flip-down" class="descripcion_sucursales">
+                <div>
+                    <a href=""><img class="logo_fit" src="../img/fit.png" alt=""></a>
+                </div>
+                <div class="contenedor">
+                    <h3 class="titulo_logo">Sucursales</h3>
+                    <p class="p_main">en total en el mundo tenemos distribuido 20.817 locales y mas concentrado en Argentina ya que es ahí donde surgio este empredimiento,pronto estaremos distribuido en todo el mundo,en cada ciudad y hasta en cada pueblo con el objetivo de vender nustros productos ala mejor calidad y precio y ecologico ya que esta echo con materiales que no daña al medio ambiente,muy pronto en todo el mundo...</p>
+                    <h4>BJFIT</h4>
+                </div>
+            </div>  
         </main>
-        <footer class="footer_logo">
-            <h2>SEGUINOS</h2>
-            <a href="https://www.facebook.com/"><img class="img_logo" src="../img/facebook.png"  alt=""></a>
-            <a href="https://www.instagram.com/"><img class="img_logo" src="../img/instagram.png" alt=""></a>
-            <a href="https://www.tiktok.com/es/"><img class="img_logo" src="../img/tiktok.png" alt=""></a>
-            <a href="https://www.youtube.com/"><img class="img_logo" src="../img/youtube.png" alt=""></a>
+        <footer class="footer_fondo">
+            <div class="title_footer">
+                <h2>SEGUINOS</h2>
+            </div>
+            <div class="footer_logo">
+                <a href="https://www.facebook.com/"><img class="img_logo" src="../img/facebook.png"  alt="facebook"></a>
+                <a href="https://www.instagram.com/"><img class="img_logo" src="../img/instagram.png" alt="instagram"></a>
+                <a href="https://www.tiktok.com/es/"><img class="img_logo" src="../img/tiktok.png" alt="tiktok"></a>
+                <a href="https://www.youtube.com/"><img class="img_logo" src="../img/youtube.png" alt="youtube"></a>
+            </div>
         </footer>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
 </body>
 </html>

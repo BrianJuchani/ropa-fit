@@ -1,0 +1,71 @@
+main{
+    background-image: url(../img/fondogym1.png);
+    h1{
+        border-bottom: 3px solid white;
+        color: white;
+        font-family: 'Smokum', cursive;
+        padding-top: 30px;
+        text-align: center;
+    }
+    div{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        padding-top: 30px;
+        padding-bottom: 100px;
+        div{
+            max-width: 650px;
+            div{
+                div{
+                    img{
+                        overflow: hidden;
+                        margin: 0px;
+                    }
+                }
+            }
+        }
+    div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 100px;
+        div{
+            img{
+                border: 5px solid #5a5a5a;
+                width: 300px;
+            }
+        }
+    }
+    div{
+        border: 5px solid white;
+        background-color: #5a5a5a;
+        h3{
+            border-bottom: 2px solid wheat;
+            color: white;
+            text-align: center;
+        }
+        p{
+            text-align: center;
+            width: 350px;
+            color: white;
+        }
+        h4{
+            text-align: center;
+            width: 350px;
+            color: white;
+        }
+    }    
+    }
+}
+.div_pronto .img_pronto:hover{
+    transform: scale(1.15);
+}
+.div_pronto{
+    .img_pronto{
+        overflow: hidden;
+        margin: 0px;
+        &:hover{
+            transform: scale(1.15);
+        }
+    }
+}

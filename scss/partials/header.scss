@@ -1,0 +1,39 @@
+header{
+    nav{
+        background-image: url(../img/cool-background1.png);
+        div{
+            display: flex;
+            justify-content: center;
+            div{
+                a{
+                    img{
+                        height: 100px;
+                    }
+                }
+            }
+            button{
+                background-color: white;
+                color: wheat;
+            }
+            div{
+                display: flex;
+                justify-content: center;
+                ul{
+                    li{
+                        a{
+                            color: white;
+                            margin: 30px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+}
+.enlace{
+    &:hover{
+        color: wheat;
+    }
+
+}
