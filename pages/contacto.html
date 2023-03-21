@@ -4,74 +4,93 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Contacto</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    <link rel="stylesheet" href="../css/estilos.css">
+    <link rel="stylesheet" href="../css/styles.css">
 </head>
 <body>
-    <header class="esp">
-        <div class="flex">
-            <a href=""><img class="logob" src="../img/fit.png" alt=""></a>
-        </div>
-        <div>
-          <header>
-              <nav>
-                  <ul class="bajo">
-                      <li class="row padreenlace">
-                          <a class="col-xl-3 col-md-6 col-sm-12 text-center enlace" href="../index.html">INCIO</a>
-                          <a class="col-xl-3 col-md-6 col-sm-12 text-center enlace" href="./muy.pronto.html" >MUY PRONTO</a>
-                          <a class="col-xl-3 col-md-6 col-sm-12 text-center enlace" href="./contacto.html" >CONTACTANOS</a>
-                          <a class="col-xl-3 col-md-6 col-sm-12 text-center enlace" href="./sucursales.html" >SUCURSALES</a>
-                          <div class="row edit">
-                              <a class="col-xl-12 col-md-12 col-sm-12 text-center enlace" href="sobrenosotros.html">SOBRENOSOTROS</a>
-                          </div>
-                      </li>
-                  </ul>
-              </nav>
-          </header>
-      </div>
+    <header>
+        <nav class="fondo_color navbar navbar-expand-lg bg-light">
+            <div class="nav_nav container-fluid">
+                <div>
+                    <a href="../index.html"><img class="logo_img" src="../img/fit.png" alt=""></a>
+                </div>
+                <button class="boton_nav navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class=" nav_nav collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class=" navbar-nav">
+                        <li class="nav-item">
+                            <a class=" enlace nav-link" href="../index.html">INICIO</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="enlace nav-link" href="./muyPronto.html">MUY PRONTO</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="enlace nav-link" href="./sucursales.html">SUCURSALES</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="enlace nav-link" href="./contacto.html">CONTACTO</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="enlace nav-link" href="./sobrenosotros.html">SOBRE NOSOTROS</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
     </header>
     <main class="containerB ">
-        <h1 class="text-center mb-5">Formulario de Contacto</h1>
+        <h1 class="title_contacto text-center mb-5">Formulario de Contacto</h1>
         <div class="input-group mb-3">
             <span class="input-group-text" id="basic-addon1">Gmail</span>
             <input type="text" class="form-control" placeholder="Nombre de Usuario" aria-label="Username" aria-describedby="basic-addon1">
-          </div>
-
-          <select class="form-select mb-3" aria-label="Default select example">
-            <option selected>Sucursal</option>
+        </div>
+        <select class="form-select mb-3" aria-label="Default select example">
+            <option selected="">Sucursal</option>
             <option value="1">America del sur</option>
             <option value="2">Latino America</option>
             <option value="3">America del Norte</option>
             <option value="4">Europa</option>
-          </select>
-          
+        </select>        
           <div class="input-group mb-3">
             <input type="text" class="form-control" placeholder="Nombre:" aria-label="Nombre:">
             <input type="text" class="form-control" placeholder="Apellido" aria-label="Apellido">
-          </div>
+        </div>
 
-          <div class="input-group mb-3">
+        <div class="input-group mb-3">
             <input type="telefono" class="form-control" placeholder="telefono:" aria-label="telefono">
             <input type="text" class="form-control" placeholder="Numero de ducumento:" aria-label="Numero de ducumento">
-          </div>
-
-          
-          <div class="input-group">
+        </div>
+        <div class="input-group">
             <span class="input-group-text">comentario</span>
             <textarea class="form-control" aria-label="comentario"></textarea>
-          </div>
-          <div class="col-12 mt-3">
+        </div>
+        <div class="col-12 mt-3">
             <button class="btn btn-primary" type="submit">Enviar</button>
-          </div>
+        </div>
+        <div>
+            <div class="horarios">
+              <h3 class="text_horario">HORARIOS</h3>
+              <p class="text_horario">De Lunes  a domingo abierto las 24HS</p>
+            </div>
+        </div>
+        <div class="mapa">
+            <h2 class="direccion_bjfit">direccion del origen de BJFIT</h2>
+            <iframe class="mapa_direccion" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d22079.020595146547!2d-58.43881727798518!3d-34.65303488168741!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca35d82e6e43%3A0x55cd1497383b4aea!2sEmilio%20Mitre%2C%20C1424%20CABA!5e0!3m2!1ses!2sar!4v1679236479473!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
     </main>
-    <footer class="footer_logo">
-      <h2>SEGUINOS</h2>
-      <a href="https://www.facebook.com/"><img class="img_logo" src="../img/facebook.png"  alt=""></a>
-      <a href="https://www.instagram.com/"><img class="img_logo" src="../img/instagram.png" alt=""></a>
-      <a href="https://www.tiktok.com/es/"><img class="img_logo" src="../img/tiktok.png" alt=""></a>
-      <a href="https://www.youtube.com/"><img class="img_logo" src="../img/youtube.png" alt=""></a>
-  </footer>
+    <footer class="footer_fondo">
+        <div class="title_footer">
+            <h2>SEGUINOS</h2>
+        </div>
+        <div class="footer_logo">
+            <a href="https://www.facebook.com/"><img class="img_logo" src="../img/facebook.png"  alt="facebook"></a>
+            <a href="https://www.instagram.com/"><img class="img_logo" src="../img/instagram.png" alt="instagram"></a>
+            <a href="https://www.tiktok.com/es/"><img class="img_logo" src="../img/tiktok.png" alt="tiktok"></a>
+            <a href="https://www.youtube.com/"><img class="img_logo" src="../img/youtube.png" alt="youtube"></a>
+        </div>
+    </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 </body>
 </html>
