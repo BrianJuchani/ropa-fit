@@ -8,4 +8,57 @@
 
 @use './partials/contacto.scss';
 
-@use './partials/footer.scss'
+@use './partials/sobreNosotros.scss';
+
+@use './partials/footer.scss';
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.descripcion_sucursales{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 100px;
+    div{
+        a{
+            img{
+                border: 5px solid white;
+                width: 300px;
+            }
+        }
+    }
+    .contenedor{
+        border: 5px solid white;
+        background-color: #5a5a5a;
+        h3{
+            border-bottom: 2px solid wheat;
+            color: white;
+            text-align: center;
+        }
+        p{
+            text-align: center;
+            width: 350px;
+            color: white;
+        }
+        h4{
+            text-align: center;
+            width: 350px;
+            color: white;
+        }
+    }
+}
+
+
+.btn{
+    color: white;
+    background-color: black;
+    border: 1px solid black;
+    &:hover{
+        border: 1px solid black;
+        background-color: wheat;
+        color: #5a5a5a;
+    }
+}

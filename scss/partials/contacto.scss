@@ -4,40 +4,45 @@
     padding-right: 50px;
     padding-bottom: 250px;
     padding-top: 40px;
+    .title_contacto{
+        color: white;
+        border-bottom: 3px solid white;
+    }
+    div{
+        .horarios{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            border: 3px solid white;
+            background-color: black;
+            margin-top: 100px;
+            h3{
+                width: 200px;
+                color: white;
+            }
+            p{
+                width: 200px;
+                color: white;
+            }
+        }
+    }
+    .mapa{
+        border: 3px solid white;
+        margin-top: 100px;
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        h2{
+            color: white;
+        }
+        iframe{
+            width: 80%;
+            height: 500px;
+            margin: 50px;
+            padding-bottom: 30px;
+        }
+    }
 }
-.bajo{
-    margin-bottom: 0;
-}
-.logob{
-    width: 100px;
-}
-.title_contacto{
-    color: white;
-    border-bottom: 3px solid white;
-}
-.horarios{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border: 3px solid white;
-    background-color: black;
-    margin-top: 100px;
-}
-.text_horario{
-    width: 200px;
-    color: white;
-}
-.mapa{
-    border: 3px solid white;
-    margin-top: 100px;
-    background-color: black;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.direccion_bjfit{
-    color: white;
-}
-.mapa_direccion{
-    padding-bottom: 30px;
-}
+
+

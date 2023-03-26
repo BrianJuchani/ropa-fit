@@ -1,4 +1,4 @@
-main{
+.flex_index{
     padding-bottom: 100px;
     background-image: url(../img/fondogym1.png);
     padding-top: 30px;
@@ -19,7 +19,7 @@ main{
             text-decoration: none;
         } 
     }
-    #productos_index{
+    article{
         display: flex;
         flex-wrap: wrap;
         justify-content: space-evenly;
@@ -32,12 +32,13 @@ main{
             }
             div{
                 background-color: #5a5a5a;
-                h5{
+                margin: 0;
+                h4{
                     color: aliceblue;
                     text-align: center;
                 }
                 a{
-                    color: black;
+                    color: white;
                 }
             }
         }
@@ -52,14 +53,5 @@ main{
         &:hover{
             transform: scale(1.15);
         }
-    }
-}
-.btn{
-    background-color: black;
-    color: white;
-    border: 1px solid black;
-    &:hover{
-        border: 1px solid black;
-        background-color: wheat;
     }
 }

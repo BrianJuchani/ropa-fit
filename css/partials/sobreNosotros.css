@@ -1,23 +1,23 @@
-main {
+.containerb1 {
   background-image: url(../img/fondogym1.png);
   padding-bottom: 30px;
   flex-wrap: wrap;
 }
-main div h1 {
+.containerb1 div h1 {
   color: white;
   border-bottom: 3px solid black;
 }
-main div {
+.containerb1 .inf {
   color: white;
   background-color: black;
   border: 3px solid black;
 }
-main div {
+.containerb1 .imgcbum {
   display: flex;
   justify-content: center;
   align-content: center;
 }
-main div img {
+.containerb1 .imgcbum img {
   width: 400px;
   height: 250px;
 }

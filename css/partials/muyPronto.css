@@ -1,67 +1,33 @@
-main {
+.mainfondo {
   background-image: url(../img/fondogym1.png);
 }
-main h1 {
+.mainfondo h1 {
   border-bottom: 3px solid white;
   color: white;
   font-family: "Smokum", cursive;
   padding-top: 30px;
   text-align: center;
 }
-main div {
+.mainfondo div {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  padding-top: 30px;
-  padding-bottom: 100px;
 }
-main div div {
+.mainfondo div div {
   max-width: 650px;
 }
-main div div div div img {
-  overflow: hidden;
+.mainfondo div div div {
+  flex-wrap: wrap;
+}
+.mainfondo div div div div img {
   margin: 0px;
 }
-main div div {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding-bottom: 100px;
-}
-main div div div img {
-  border: 5px solid #5a5a5a;
-  width: 300px;
-}
-main div div {
-  border: 5px solid white;
+.mainfondo div div div div div {
   background-color: #5a5a5a;
 }
-main div div h3 {
-  border-bottom: 2px solid wheat;
-  color: white;
+.mainfondo div div div div div h5 {
+  color: aliceblue;
   text-align: center;
-}
-main div div p {
-  text-align: center;
-  width: 350px;
-  color: white;
-}
-main div div h4 {
-  text-align: center;
-  width: 350px;
-  color: white;
-}
-
-.div_pronto .img_pronto:hover {
-  transform: scale(1.15);
-}
-
-.div_pronto .img_pronto {
-  overflow: hidden;
-  margin: 0px;
-}
-.div_pronto .img_pronto:hover {
-  transform: scale(1.15);
 }
 
 /*# sourceMappingURL=muyPronto.css.map */

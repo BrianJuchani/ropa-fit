@@ -25,50 +25,51 @@ header nav div div ul li a {
   color: wheat;
 }
 
-main {
+.flex_index {
   padding-bottom: 100px;
   background-image: url(../img/fondogym1.png);
   padding-top: 30px;
   display: flex;
   flex-direction: row;
 }
-main div {
+.flex_index div {
   margin-left: 2px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
 }
-main div h3 {
+.flex_index div h3 {
   color: white;
   text-align: center;
   border: 3px solid black;
 }
-main div a {
+.flex_index div a {
   color: wheat;
   text-decoration: none;
 }
-main #productos_index {
+.flex_index article {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
 }
-main #productos_index div {
+.flex_index article div {
   border: 5px solid #5a5a5a;
   margin-top: 30px;
 }
-main #productos_index div img {
+.flex_index article div img {
   width: 200px;
   margin-bottom: 20px;
 }
-main #productos_index div div {
+.flex_index article div div {
   background-color: #5a5a5a;
+  margin: 0;
 }
-main #productos_index div div h5 {
+.flex_index article div div h4 {
   color: aliceblue;
   text-align: center;
 }
-main #productos_index div div a {
-  color: black;
+.flex_index article div div a {
+  color: white;
 }
 
 .card {
@@ -83,125 +84,63 @@ main #productos_index div div a {
   transform: scale(1.15);
 }
 
-.btn {
-  background-color: black;
-  color: white;
-  border: 1px solid black;
-}
-.btn:hover {
-  border: 1px solid black;
-  background-color: wheat;
-}
-
-main {
+.mainfondo {
   background-image: url(../img/fondogym1.png);
 }
-main h1 {
+.mainfondo h1 {
   border-bottom: 3px solid white;
   color: white;
   font-family: "Smokum", cursive;
   padding-top: 30px;
   text-align: center;
 }
-main div {
+.mainfondo div {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  padding-top: 30px;
-  padding-bottom: 100px;
 }
-main div div {
+.mainfondo div div {
   max-width: 650px;
 }
-main div div div div img {
-  overflow: hidden;
+.mainfondo div div div {
+  flex-wrap: wrap;
+}
+.mainfondo div div div div img {
   margin: 0px;
 }
-main div div {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding-bottom: 100px;
-}
-main div div div img {
-  border: 5px solid #5a5a5a;
-  width: 300px;
-}
-main div div {
-  border: 5px solid white;
+.mainfondo div div div div div {
   background-color: #5a5a5a;
 }
-main div div h3 {
-  border-bottom: 2px solid wheat;
-  color: white;
+.mainfondo div div div div div h5 {
+  color: aliceblue;
   text-align: center;
 }
-main div div p {
-  text-align: center;
-  width: 350px;
-  color: white;
-}
-main div div h4 {
-  text-align: center;
-  width: 350px;
-  color: white;
-}
 
-.div_pronto .img_pronto:hover {
-  transform: scale(1.15);
-}
-
-.div_pronto .img_pronto {
-  overflow: hidden;
-  margin: 0px;
-}
-.div_pronto .img_pronto:hover {
-  transform: scale(1.15);
-}
-
-main {
+.fondo_sucursales {
   background-image: url(../img/fondogym1.png);
 }
-main div h1 {
+.fondo_sucursales div h1 {
   padding-top: 30px;
   text-align: center;
   color: white;
   font-family: "Bebas Neue", cursive;
   border-bottom: 3px solid white;
 }
-main div {
+.fondo_sucursales .main_sucursales {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
   padding-top: 100px;
   padding-bottom: 100px;
 }
-main div div img {
-  overflow: hidden;
-  width: 470px;
+.fondo_sucursales .main_sucursales div img {
+  overflow-x: auto;
+  width: 100%;
+  height: 300px;
   margin: 0;
 }
-main div {
-  display: flex;
-  justify-content: center;
-  padding-bottom: 100px;
-}
-main div div a img {
-  border: 5px solid #5a5a5a;
-  width: 300px;
-}
-main div div {
-  border: 5px solid #5a5a5a;
+.fondo_sucursales .main_sucursales div div {
   background-color: #5a5a5a;
-}
-main div div h3 {
-  border-bottom: 2px solid wheat;
-  color: white;
-  width: 300px;
-}
-main div div p {
-  width: 700px;
-  color: white;
 }
 
 .containerB {
@@ -211,21 +150,11 @@ main div div p {
   padding-bottom: 250px;
   padding-top: 40px;
 }
-
-.bajo {
-  margin-bottom: 0;
-}
-
-.logob {
-  width: 100px;
-}
-
-.title_contacto {
+.containerB .title_contacto {
   color: white;
   border-bottom: 3px solid white;
 }
-
-.horarios {
+.containerB div .horarios {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -233,13 +162,15 @@ main div div p {
   background-color: black;
   margin-top: 100px;
 }
-
-.text_horario {
+.containerB div .horarios h3 {
   width: 200px;
   color: white;
 }
-
-.mapa {
+.containerB div .horarios p {
+  width: 200px;
+  color: white;
+}
+.containerB .mapa {
   border: 3px solid white;
   margin-top: 100px;
   background-color: black;
@@ -247,13 +178,38 @@ main div div p {
   flex-direction: column;
   align-items: center;
 }
-
-.direccion_bjfit {
+.containerB .mapa h2 {
   color: white;
 }
-
-.mapa_direccion {
+.containerB .mapa iframe {
+  width: 80%;
+  height: 500px;
+  margin: 50px;
   padding-bottom: 30px;
+}
+
+.containerb1 {
+  background-image: url(../img/fondogym1.png);
+  padding-bottom: 30px;
+  flex-wrap: wrap;
+}
+.containerb1 div h1 {
+  color: white;
+  border-bottom: 3px solid black;
+}
+.containerb1 .inf {
+  color: white;
+  background-color: black;
+  border: 3px solid black;
+}
+.containerb1 .imgcbum {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.containerb1 .imgcbum img {
+  width: 400px;
+  height: 250px;
 }
 
 footer {
@@ -274,6 +230,52 @@ footer div a img {
   margin-bottom: 30px;
   width: 60px;
   height: 60px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.descripcion_sucursales {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 100px;
+}
+.descripcion_sucursales div a img {
+  border: 5px solid white;
+  width: 300px;
+}
+.descripcion_sucursales .contenedor {
+  border: 5px solid white;
+  background-color: #5a5a5a;
+}
+.descripcion_sucursales .contenedor h3 {
+  border-bottom: 2px solid wheat;
+  color: white;
+  text-align: center;
+}
+.descripcion_sucursales .contenedor p {
+  text-align: center;
+  width: 350px;
+  color: white;
+}
+.descripcion_sucursales .contenedor h4 {
+  text-align: center;
+  width: 350px;
+  color: white;
+}
+
+.btn {
+  color: white;
+  background-color: black;
+  border: 1px solid black;
+}
+.btn:hover {
+  border: 1px solid black;
+  background-color: wheat;
+  color: #5a5a5a;
 }
 
 /*# sourceMappingURL=styles.css.map */
