@@ -70,9 +70,6 @@
 .card .card-img-top:hover{
     transform: scale(1.15);
 }
-.btn-primary{
-    color: black;
-}
 /*footer*/
 .footer_logo{
     display: flex;
@@ -113,7 +110,8 @@
 }
 .img_sucursales{
     overflow: hidden;
-    width: 470px;
+    width: 100%;
+    height: 300px;
     margin: 0;
 }
 .descripcion_sucursales{
@@ -143,8 +141,6 @@
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    padding-top: 30px;
-    padding-bottom: 100px;
 }
 .mainfondo{
     background-image: url(../img/fondogym1.png);
@@ -160,7 +156,6 @@
     max-width: 650px;
 }
 .img_pronto{
-    overflow: hidden;
     margin: 0px;
 }
 .div_pronto .img_pronto:hover{
@@ -173,7 +168,7 @@
     padding-bottom: 100px;
 }
 .logo_fit{
-    border: 5px solid #5a5a5a;
+    border: 5px solid white;
     width: 300px;
 }
 .contenedor{
@@ -197,12 +192,6 @@
     padding-right: 50px;
     padding-bottom: 250px;
     padding-top: 40px;
-}
-.bajo{
-    margin-bottom: 0;
-}
-.logob{
-    width: 100px;
 }
 .title_contacto{
     color: white;
@@ -263,11 +252,12 @@
 .containerb1{
     background-image: url(../img/fondogym1.png);
     padding-bottom: 30px;
+    width: 100%;
 }
 
 /*botom*/
 .btn {
-    background-color: black;
+    background-color: black ;
     color: white;
     border: 1px solid black;
 }

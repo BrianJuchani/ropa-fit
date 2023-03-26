@@ -1,4 +1,4 @@
-main{
+.containerb1{
     background-image: url(../img/fondogym1.png);
     padding-bottom: 30px;
     flex-wrap: wrap;
@@ -8,12 +8,12 @@ main{
             border-bottom: 3px solid black;
         }
     }
-    div{
+    .inf{
         color: white;
         background-color: black;
         border: 3px solid black;
     }
-    div{
+    .imgcbum{
         display: flex;
         justify-content: center;
         align-content: center;
