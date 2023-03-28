@@ -8,7 +8,7 @@ header nav div {
 header nav div div a img {
   height: 100px;
 }
-header nav div button {
+header nav div .boton_nav {
   background-color: white;
   color: wheat;
 }
@@ -32,18 +32,22 @@ header nav div div ul li a {
   display: flex;
   flex-direction: row;
 }
-.flex_index div {
+.flex_index .opciones {
   margin-left: 2px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
 }
-.flex_index div h3 {
+.flex_index .opciones h1 {
+  color: aliceblue;
+  border-bottom: 3px solid blanchedalmond;
+}
+.flex_index .opciones .talles {
   color: white;
   text-align: center;
   border: 3px solid black;
 }
-.flex_index div a {
+.flex_index .opciones a {
   color: wheat;
   text-decoration: none;
 }
@@ -64,7 +68,7 @@ header nav div div ul li a {
   background-color: #5a5a5a;
   margin: 0;
 }
-.flex_index article div div h4 {
+.flex_index article div div h2 {
   color: aliceblue;
   text-align: center;
 }

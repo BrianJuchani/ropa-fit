@@ -8,7 +8,7 @@ header nav div {
 header nav div div a img {
   height: 100px;
 }
-header nav div button {
+header nav div .boton_nav {
   background-color: white;
   color: wheat;
 }
